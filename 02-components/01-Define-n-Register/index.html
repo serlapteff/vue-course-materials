@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<main id="app">
+  <figure>
+    <img :src="`https://cataas.com/cat?height=200&random=${cats[0]}`" alt="Random cat 1">
+    <figcaption>Cat #{{ cats[0] }}</figcaption>
+  </figure>
+
+  <figure>
+    <img :src="`https://cataas.com/cat?height=200&random=${cats[1]}`" alt="Random cat 2">
+    <figcaption>Cat #{{ cats[1] }}</figcaption>
+  </figure>
+
+  <figure>
+    <img :src="`https://cataas.com/cat?height=200&random=${cats[2]}`" alt="Random cat 3">
+    <figcaption>Cat #{{ cats[2] }}</figcaption>
+  </figure>
+</main>
+
+<script type="module" src="./script.js"></script>
+</body>
+</html>
