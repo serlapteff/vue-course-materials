@@ -44,3 +44,13 @@
         max-width: 100%;
     }
 }
+
+@media all and (max-width: 480px) {
+  #filters-panel__search {
+    width: calc(100% - 112px);
+  }
+
+  #filters-panel__search > .form-control {
+    max-width: 100%;
+  }
+}
